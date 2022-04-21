@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head lang="pt-br">
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1"> 
+        
+        <title>Primeiro desafio DIO - Accordion</title>
+        
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+                      
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+        
+        <!--script que executa o efeito do accordion chamando a div no body com id="accordion"--> 
+        <script>
+            $( function() {
+                $( "#accordion").accordion();
+            });
+        </script>
+
+    </head>
+    <body>
+             
+        <!--Título em h2 para descrever os itens que virão abaixo-->
+        <h2>Passo a passo no primeiro acolhimento do paciente</h2>
+
+        <!--Para utilizar o efeito "accordion" do jQuery inserimos as div com o id="accordion"-->
+        <div id="accordion">
+            <h3>Passo 1 - Toten</h3>
+            <div>
+                <p>
+                    Paciente se dirige até o toten para retirar a senha para atendimento.
+                </p>
+            </div>
+            <h3>Passo 2 - Recepção</h3>
+            <div>
+                <p>
+                    Paciente aguarda o chamamento de sua senha pela recepção no painel de chamados.
+                </p>
+            </div>
+            <h3>Passo 3 - Atendimento</h3>
+            <div>
+                <p>
+                    Realizado o primeiro cadastro do paciente. Necessário que sejam apresentados os seguintes documentos: 
+                </p>
+                <ul>
+                    <li>Documento de identificação com foto</li>
+                    <li>Comprovante de residência</li>
+                    <li>Cartão do SUS</li>
+                </ul>
+            </div>
+            <h3>Passo 4 - Classificação de risco</h3>
+            <div>
+                <p>
+                    Para pacientes em atendimento de urgência, a enfermagem realizará a classificação de risco tendo como base
+                    o Protocolo de Manchester.
+                </p>
+
+                <!--Lista não-ordenada com formatão de cor no próprio HTML-->
+                <ul>
+                    <li><b><font color="red">VERMELHO: </font></b>Atendimento imediato</li>
+                    <li><b><font color="orange">LARANJA: </font></b>Muito urgente - 10min</li>
+                    <li><b><font color="yellow">AMARELO: </font></b>Urgente - 60min</li>
+                    <li><b><font color="green">VERDE: </font></b>Pouco urgente - 120min</li>
+                    <li><b><font color="blue">AZUL: </font></b>Sem urgência - 240min</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+</html>
+
+
+
+
+
+
+
