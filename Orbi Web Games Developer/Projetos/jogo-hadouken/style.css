@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+    background-image: url(img/background.jpg);
+}
+
+#main-play-area {
+    background-color: black;
+    background-image: url(img/stage.jpg);
+    height: 600px;
+    width: 600px;
+}
+
+.instrucoes {
+    position: relative;
+    color: white;
+    left: 8rem;
+    top: 220px;
+}
+
+.start-button {
+    position: relative;
+    color: white;
+    top: 5rem;
+    left: 15rem;
+    cursor: pointer;
+}
+
+.ryu {
+    position: relative;
+    height: 140px;
+    width: 120px;
+    left: 20px;
+    top: 200px;
+}
+
+.hadouken {
+    position: relative;
+    width: 50px;
+    height: 60px;
+}
+
+.objeto-madeira {
+    height: 100px;
+    width: 90px;
+    position: relative;
+}
+
+.objeto-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.objeto-quebrado {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}
