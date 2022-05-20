@@ -8,6 +8,7 @@ Espero que gostem para juntos evoluirmos!
 - Cursos
 - Exercícios
 - Desafios
+- E muito mais...
 
 Abraço!
 
